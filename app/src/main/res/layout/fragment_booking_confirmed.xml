@@ -1,0 +1,212 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="esiapp.esi.ui.fragment.BookingConfirmedFragment">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="esiapp.esi.ui.fragment.BookingConfirmedFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/include"
+            android:layout_margin="8dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/booking_conformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/booking_accepted" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/booking_conformation_booking_conformed"
+                    android:textColor="@color/green"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/booking_confirmed_fragment_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/booking_conformation"
+                android:background="@color/appointment_color">
+
+                <LinearLayout
+                    android:id="@+id/booking_confirmed_fragment_user_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/booking_confirmed_fragment_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp">
+
+                        <TextView
+                            android:id="@+id/booking_confirmed_ip_no_heading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/manage_appointment_ip_number"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/booking_confirmed_ip_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content">-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/booking_confirmed_aadhar_no_heading"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="@string/manage_appointment_aadhar"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:textSize="17sp" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/booking_confirmed_aadhar_no"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text=""-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:textSize="17sp" />-->
+                    <!--</LinearLayout>-->
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/booking_confirmed_fragment_dispensary_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/booking_confirmed_fragment_user_details"
+                    android:layout_margin="10dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/booking_confirmed_fragment_address_heading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/booking_confirmed_dispensary_address"
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/booking_confirmed_fragment_date_heading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginRight="23dp"
+                        android:layout_weight="1"
+                        android:text="@string/booking_confirmed_date_and_time"
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/booking_confirmed_fragment_address_heading"
+                        android:layout_marginRight="100dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:paddingRight="100dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/booking_confirmed_fragment_date_heading"
+                        android:layout_alignStart="@+id/booking_confirmed_fragment_date_heading"
+                        android:layout_alignTop="@+id/textView2"
+                        android:layout_marginTop="11dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/booking_confirmed_fragment_dividerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/booking_confirmed_fragment_user_details"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/booking_confirmed_fragment_dispensary_heading"
+                    android:background="@color/screen_bg"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:id="@+id/booking_confirmed_fragment_discription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/booking_confirmed_fragment_discription_txt"
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</ScrollView>

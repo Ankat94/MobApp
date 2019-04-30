@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">Ask An Appointment</string>
+    <string name="main_activity_choose_txt">Choose appropriate sign in option</string>
+    <string name="activity_main_title">Your e-Health Portal</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
+    </string>
+    <string name="login_activity_enter_ip_number_txt">Enter IP number</string>
+    <string name="otp_screen_resend_otp_txt"><u>Resend OTP</u></string>
+    <string name="otp_screen_waiting_txt">Waiting for OTP ...</string>
+    <string name="otp_screen_hint_txt">   Enter OTP</string>
+    <string name="title_activity_landing">LandingActivity</string>
+    <string name="adhaar_number_agree">I have no objection in providing my \"Aadhaar Number\" for fetching \"Know Your Customer (KYC)\" data from UIDAI database. I consent and provide my \"Aadhaar Number\"</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="otp_sending_message">Note: OTP will be sent to above mentioned Mobile Number.</string>
+    <string name="action_settings">Settings</string>
+    <string name="landing_screen_book_appointments">Book appointments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="book_appointment_next">Next</string>
+    <string name="book_appointment_select">Select &amp; Proceed</string>
+    <string name="book_appointment_proceed">Proceed</string>
+    <string name="book_appointment_close">Close</string>
+
+    <!-- Fragment headings-->
+    <string name="choose_patient_fragment_title">(1/4) Choose Patient</string>
+    <string name="select_date_fragment_title">(2/4) Select Date and Time</string>
+    <string name="review_booking_fragment_title">(3/4) Review Booking</string>
+    <string name="confirm_booking_fragment_title">(4/4) Booking Confirmed</string>
+    <string name="update_adhaar">Update Aadhaar</string>
+    <string name="verify_adhaar">Verify Aadhaar</string>
+    <string name="upcoming_appoinment_item_appointment_heading">Appointment :</string>
+    <string name="upcoming_appointment_item_reference_heading">Reference Number : </string>
+    <string name="upcoming_appoinment_item_time_heading">Time : </string>
+    <string name="appointment_status">Status : </string>
+    <string name="dependant_details">Dependants Details</string>
+    <string name="main_activity_ip_number">IP Number</string>
+    <string name="main_activity_ip_number_u">IP Number (U)</string>
+    <string name="main_activity_esic_employee">ESIC Employee</string>
+    <string name="main_activity_esic_pensioner">ESIC Pensioner</string>
+    <string name="main_activity_hindi">हिन्दी</string>
+    <string name="main_activity_english">English</string>
+    <string name="mobile_number_code">+91</string>
+
+    <string name="login_activity_hint_ip_number">IP Number</string>
+    <string name="update_adhaar_enter_mobile_number">Enter Mobile Number</string>
+    <string name="update_adhaar_enter_adhaar_number">Enter Aadhaar Number</string>
+    <string name="update_adhaar_entered_adhaar_number">Entered Aadhaar Number</string>
+    <string name="login_activity_mobile_number">Mobile Number</string>
+    <string name="login_activity_adhaar_number">Aadhaar Number</string>
+
+    <string name="login_activity_sign_in">Sign In</string>
+
+    <string name="manage_appointment_activity_title">Manage Appointment</string>
+    <string name="manage_appointment_ip_number">IP Number : </string>
+    <string name="manage_appointment_aadhar">Aadhaar : </string>
+    <string name="manage_appointment_dispensary_address">Dispensary Address</string>
+    <string name="manage_appointment_date_and_time">Date and Time</string>
+    <string name="manage_appointment_cancel">Cancel</string>
+    <string name="manage_appointment_re_schedule">Re-schedule</string>
+
+    <string name="otp_activity_you_are_about_to_cancel_for">You are about to cancel for</string>
+    <string name="otp_activity_schedule_on">, schedule on</string>
+    <string name="aadhaar_number_update_message">Updating Aadhaar number for </string>
+    <string name="aadhaar_number_update_message_1">.</string>
+    <string name="otp_activity_sec"> &#x20;&#x20;Sec</string>
+    <string name="otp_activity_enter_otp">Enter OTP</string>
+    <string name="verify_otp">Verify</string>
+    <string name="splash_screen_esi_s_digital_india_initiative">ESI\'s Digital India Initiative</string>
+
+
+    <string name="upcoming_appointment">Upcoming</string>
+    <string name="history_appointment">History</string>
+    <string name="choose_patient_update">Update</string>
+    <string name="choose_patient_aadhaar">Aadhaar : </string>
+    <string name="choose_patient_relation_ship">Relationship : </string>
+    <string name="custome_dialog_cancel_appointment">Cancel Appointment</string>
+    <string name="custome_dialog_are_you_sure_want_to_cancel_this_appointment">Are you sure you want to cancel this appointment ?</string>
+    <string name="custome_dialog_yes">Yes</string>
+    <string name="custome_dialog_no">No</string>
+    <string name="custom_dialog_cancel">Cancel</string>
+    <string name="custom_dialog_update">Update</string>
+    <string name="custom_dialog_next">Next</string>
+    <string name="update_aadhar_number">Update</string>
+    <string name="custome_navigation_ip_number">IP Number:</string>
+    <string name="custome_navigation_aadhar_number">Aadhaar No : </string>
+    <string name="custome_navigation_appointments">Appointments</string>
+    <string name="custome_navigation_dependents">Dependents</string>
+    <string name="custome_navigation_settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="custome_navigation_dispensary_address">Dispensary Address</string>
+    <string name="custom_navigation_uhid">UHID : </string>
+
+    <string name="booking_conformation_booking_conformed">Booking confirmed</string>
+    <string name="booking_confirmed_dispensary_address">Dispensary Address</string>
+    <string name="booking_confirmed_date_and_time">Date and Time</string>
+    <string name="booking_confirmed_fragment_discription_txt">Please produce the %1$s at the designated dispensary for verification and registration purpose. Please reach 15 Minutes before the Scheduled appointment time. \n Thank you</string>
+    <string name="booking_confirmed_fragment_reference_no_txt">Booking Reference no : </string>
+    <string name="booking_confirmed_message">Please produce the reference</string>
+    <string name="booking_confirmed_message1">at the designated dispensary for verification and registration purpose. Please reach 15 minutes before the scheduled appointment time. \n Thank you</string>
+    <string name="choose_patient_aadhar">Aadhaar : </string>
+    <string name="add_new_dependency">ADD</string>
+    <string name="review_booking_dispensary_address">Dispensary Address</string>
+    <string name="review_booking_date_and_time">Date and Time</string>
+    <string name="review_booking_entered_mobile_number">Entered Mobile Number</string>
+    <string name="review_booking_mob_no_hint">xxxxxxxxxx</string>
+    <string name="review_booking_further_communication_msg">Save mobile number for further communication</string>
+    <string name="review_booking_note_msg">Note: OTP will be sent to above mentioned mobile number</string>
+    <string name="base_url">http://172.16.80.89:622</string>
+    <string name="entered_adhaar_number_example">ABCD123EFGH56</string>
+
+    //add new dependency
+    <string name="enter_name">Enter Name</string>
+    <string name="name">Name</string>
+    <string name="enter_adhaar_number">Enter Aadhaar Number</string>
+    <string name="adhaar_number">Aadhaar Number</string>
+    <string name="add_dependency">Add Dependency</string>
+    <string name="dependency_message">Unable to go ahead with booking, please try again later.</string>
+    <string name="choose_time_slot_message">Please select respective time slot.</string>
+
+    <string name="session_id_check">Invalid Session ID or IP Number. Please Login again with correct entry</string>
+    <string name="no_time_slot_available_message">No time slot available for the day session, please select different day session.</string>
+    <string name="invalid_otp">Invalid OTP Number or Already Verified (unsuccessful)</string>
+    <string name="failed_at_server">Failed at Server Level.</string>
+    <string name="invalid_ip">Invalid IP Number</string>
+    <string name="valid_ip_session">True, Valid SessionId and IPNumber</string>
+
+    <string name="exit_alert_msg">Are you sure you want to exit?</string>
+    <string name="log_out_message">Are you sure you want to logout?</string>
+    <string name="date_error">Not able to get the scheduled dates.</string>
+
+    //strings for parsing otp messages
+    <string name="extract_otp_from_message_1"> is the One Time password (OTP) to Login \'AAA\' Mobile App and is valid for 1 minute only. Please do not share it with anyone - ESI</string>
+    <string name="extract_otp_from_message_2"> is the OTP to Login \'AAA\' Mobile App and is valid for 1  minutes only. Please do not share it with anyone - ESI</string>
+
+    <string name="not_available">Not available.</string>
+    <string name="no_upcoming_appointments">No Upcoming appointment</string>
+    <string name="no_history_available">No History available</string>
+    <string name="booked">Booked</string>
+    <string name="available">Available</string>
+    <string name="selected">Selected</string>
+
+    // Toast message strings
+    <string name="update_aadhaar_number_message">Please update the Aadhaar number</string>
+    <string name="time_slot_not_available_message">Selected time slot is not available for booking</string>
+    <string name="select_patient">Please select a patient and proceed further </string>
+    <string name="add_aadhaar_number_message">Please add Aadhaar number first</string>
+    <string name="hospital_code_error">Dispensary Code is not received / created:</string>
+    <string name="hospital_address_error">Dispensary name and/or address not available / not mapped. Contact your employer: </string>
+    <string name="uhid_not_available_message">Patient UHID is not available / not created. Please visit dispensary</string>
+    <string name="mobile_number_message">Mobile number should be of 10 digits</string>
+    <string name="enter_mobile_number_message">Enter Mobile number</string>
+    <string name="something_wrong_message">"We encountered error with our server, please try again</string>
+    <string name="unable_to_fetch_ipdetails_message">Unable to fetch the IP details. Please try later.</string>
+    <string name="session_id_error_message">Your session has expired, please login again</string>
+    <string name="unable_to_connnect_message">Looks like you are not connected to internet</string>
+    <string name="ip_and_aadhaar_number_message">IP Number and Mobile Number fields should not be empty. Please enter valid and correct information.</string>
+    <string name="ip_number_message">IPNumber should be of 10 digits</string>
+    <string name="mobile_number_message1">Mobile number should be of 10 digits</string>
+    <string name="please_enter_otp_message">Please enter the OTP</string>
+    <string name="unable_to_verify_message">Unable to verify the OTP</string>
+    <string name="unable_to_validate_otp">Unable to validate OTP</string>
+    <string name="resend_otp_message">Unable to resend OTP</string>
+    <string name="unable_to_reschedule">Unable to reschedule the appointment, try again later</string>
+    <string name="unable_to_cancel">Unable to cancel the appointment, try again later</string>
+    <string name="unable_to_fetch_appointment_list">Unable to fetch the appointment list, try again later</string>
+    <string name="unable_to_fetch_date_message">Unable to fetch the scheduled dates, try again later.</string>
+    <string name="select_date">Select Date</string>
+    <string name="aadhar_and_mobile_number_message">Aadhaar number and Mobile number cannot be empty.</string>
+    <string name="aadhaar_number_message">Aadhaar number cannot be empty.</string>
+    <string name="mobile_number_empty_message">Mobile number cannot be empty.</string>
+    <string name="aadhaar_number_message_s">Aadhaar Number should be of 12 digits.</string>
+    <string name="unable_to_update_aadhaar_number">Unable to update Aadhaar Number.</string>
+    <string name="otp_cannot_be_empty_message">OTP Cannot be empty.</string>
+    <string name="unable_to_send_otp">Unable to resend OTP.</string>
+
+    //spinner string values
+    <string name="morning_session">Morning Session 00:00 - 12:00 PM</string>
+    <string name="afternoon_session">Afternoon Session 12:00 - 4:00 PM</string>
+    <string name="evening_session">Evening Session 4:00 PM - 7:00 PM</string>
+    <string name="night_session">Night Session 7:00 PM - 12:00 AM</string>
+
+    //Error response Codes.
+    <string name="error_code_1503">Valid SessionId and IPNumber </string>
+    <string name="error_code_1504">Invalid SessionId or IPNumber</string>
+    <string name="error_code_1000">Provided IPNumber is valid, proceeding</string>
+    <string name="error_code_1001">Provided IPNumber is invalid, please provide valid IPNumber</string>
+    <string name="error_code_1002">Provided IPNumber is not eligible for mobile appointments</string>
+    <string name="error_code_1003">Provided IPNumber is not available</string>
+    <string name="error_code_1004">Provided mobile number is not valid</string>
+
+    <string name="error_code_1100">Verification successfully</string>
+    <string name="error_code_1101">Verification failed, incorrect or expired OTP number provided</string>
+    <string name="error_code_1102">We encountered error with our server, please try again</string>
+
+    <string name="error_code_2400">Resending you the new OTP</string>
+    <string name="error_code_2401">OTP sending failed, please try again</string>
+    <string name="error_code_1200">Fetching your profile information</string>
+    <string name="error_code_1201">Provided IPNumber is invalid, please provide valid IPNumber</string>
+
+    <string name="error_code_1800">Provided IPNumber does not have mandatory IP details, please try again</string>
+    <string name="error_code_1801">IPNumber has associated dependents</string>
+    <string name="error_code_1802">Provided IPNumber has valid IP details</string>
+    <string name="error_code_1803">Your session has expired, please login again</string>
+
+    <string name="error_code_1600">Your appointment has been rescheduled successfully</string>
+    <string name="error_code_1601">Selected date is greater than today</string>
+    <string name="error_code_1602">Appointment already scheduled for the same date</string>
+    <string name="error_code_1603">Appointment Reference number could not be found, please try again</string>
+    <string name="error_code_1604">New Reference number has been generated.</string>
+    <string name="error_code_1605">We encountered error with our server, please try again</string>
+    <string name="error_code_1607">Your Appointment cannot be rescheduled since your booking appointment time is left with a day</string>
+
+    <string name="error_code_1300">Your appointment has been booked successfully</string>
+    <string name="error_code_1301">Please select date that is later or today</string>
+    <string name="error_code_1302">Hospital has not been configured for your IPNumber</string>
+    <string name="error_code_1303">Selected appointment slot is not available, please choose different slot and try again</string>
+    <string name="error_code_1304">Provided reference number is not valid</string>
+    <string name="error_code_1305">Your session has expired, please login again</string>
+
+    <string name="error_code_2000">Fetching your profile information related to hospital</string>
+    <string name="error_code_2001">Your hospital code has not been configured for period scheduling, please try again later</string>
+    <string name="error_code_2002">Your hospital code has not been configured for time slot, please try again later</string>
+    <string name="error_code_2003">Invalid hospital code</string>
+    <string name="error_code_2004">Your session has expired, please login again</string>
+    <string name="error_code_2103">The selected date is a holiday, please select different date and try again</string>
+
+    <string name="error_code_1700">Your appointment has been cancelled</string>
+    <string name="error_code_1701">The appointment is already cancelled</string>
+    <string name="error_code_1702">Provided IPNumber is not valid, cannot cancel appointment</string>
+    <string name="error_code_1703">We encountered error with our server, please try again</string>
+    <string name="error_code_1704">Your Appointment cannot be cancelled since your booking appointment time is left with 1 hour.</string>
+
+    <string name="error_code_1900">Your Aadhaar number is stored successfully</string>
+    <string name="error_code_1901">Your Aadhaar number is updated successfully</string>
+    <string name="error_code_1902">Invalid Mobile or Aadhaar Number provided, please correct and try again</string>
+    <string name="error_code_1903">We encountered error with our server, please try again</string>
+    <string name="error_code_1904">Invalid or inactive IPNumber</string>
+    <string name="error_code_1950">OTP verified successfully</string>
+    <string name="error_code_1951">We encountered error with our server, please try again</string>
+    <string name="error_code_1952">Provided OTP is not valid</string>
+
+
+    <string name="error_code_2300">Aadhaar Number OTP Generated and Message sent</string>
+    <!--<string name="error_code_2301">Invalid IPNumber or Mobile Number or Aadhaar Number</string>-->
+    <string name="error_code_2301">Please enter correct Aadhaar No.</string>
+    <string name="error_code_2302">Unable to send you the new OTP, please try again</string>
+    <string name="error_code_2303">We encountered error with our server, please try again</string>
+    <string name="error_code_2304">Provided Aadhaar Number is not valid</string>
+
+    <string name="error_code_2500">Resending you the new OTP</string>
+    <string name="error_code_2501">Unable to send you the new OTP, please try again</string>
+
+</resources>

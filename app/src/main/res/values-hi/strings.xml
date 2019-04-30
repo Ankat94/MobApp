@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name" translatable="false">Ask An Appointment</string>
+    <string name="main_activity_choose_txt">एक उपयुक्त साइन-इन विकल्प चुनें</string>
+    <string name="activity_main_title" translatable="false">आपका ई-स्वास्थ्य पोर्टल</string>
+    <string name="title_activity_login">साइन इन करें </string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">ईमेल</string>
+    <string name="prompt_password">पासवर्ड (वैकल्पिक) </string>
+    <string name="action_sign_in" translatable="false">साइन इन करें या रजिस्टर</string>
+    <string name="action_sign_in_short" translatable="false">साइन इन करें </string>
+    <string name="error_invalid_email">यह ईमेल पता अमान्य है </string>
+    <string name="error_invalid_password">यह पासवर्ड बहुत छोटा है </string>
+    <string name="error_incorrect_password">यह पासवर्ड गलत है </string>
+    <string name="error_field_required">यह फ़ील्ड आवश्यक है </string>
+    <string name="permission_rationale">संपर्क अनुमतियों, ईमेल प्राप्तियां उपलब्ध कराने के लिए आवश्यक हैं।</string>
+    <string name="login_activity_enter_ip_number_txt">आईपी संख्या दर्ज करें</string>
+    <string name="otp_screen_resend_otp_txt"><u>ओटीपी दोबारा भेजें</u></string>
+    <string name="otp_screen_waiting_txt">ओटीपी दर्ज  करें। शेष समय ...</string>
+    <string name="otp_screen_hint_txt">यहाँ ओटीपी दर्ज करें</string>
+    <string name="title_activity_landing">LandingActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="landing_screen_book_appointments">मिलने का समय बुक करें</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="book_appointment_next" translatable="false">आगे बढ़ें</string>
+    <string name="book_appointment_select" translatable="false">तारीख और समय का चयन करें और आगे बढ़ें</string>
+    <string name="book_appointment_proceed" translatable="false">आगे बढ़ें</string>
+    <string name="book_appointment_close" translatable="false">एप्लिकेशन बंद करें</string>
+
+    <!-- Fragment headings-->
+    <string name="choose_patient_fragment_title" translatable="false">"(1/4) एक व्यक्ति  को चुनें</string>
+    <string name="select_date_fragment_title">(2/4) तिथि व समय चुनें</string>
+    <string name="review_booking_fragment_title">(3/4) अपनी बुकिंग की समीक्षा करें</string>
+    <string name="confirm_booking_fragment_title" translatable="false">(4/4) बुकिंग की पुष्टि! </string>
+    <string name="update_adhaar">आधार संख्या दर्ज करें</string>
+    <string name="verify_adhaar">आधार संख्या सत्यापित करें</string>
+
+    <string name="upcoming_appoinment_item_appointment_heading">नियुक्ति: :</string>
+    <string name="upcoming_appointment_item_reference_heading">संदर्भ  संख्या : </string>
+    <string name="upcoming_appoinment_item_time_heading">तिथि व समय : </string>
+    <string name="appointment_status">स्थिति : </string>
+    <string name="dependant_details">आश्रितजन का विवरण</string>
+
+    <string name="main_activity_ip_number">आईपी संख्या</string>
+    <string name="main_activity_ip_number_u">आईपी संख्या (अ)</string>
+    <string name="main_activity_esic_employee">ईएसआईसी कर्मचारी</string>
+    <string name="main_activity_esic_pensioner">ईएसआईसी पेंशनभोगी</string>
+    <string name="main_activity_hindi">हिन्दी</string>
+    <string name="main_activity_english">English</string>
+    <string name="mobile_number_code">+91</string>
+
+    <string name="login_activity_hint_ip_number">आईपी संख्या</string>
+    <string name="update_adhaar_enter_mobile_number">मोबाइल नंबर दर्ज करेंं</string>
+    <string name="login_activity_mobile_number">मोबाइल नंबर</string>
+    <string name="login_activity_sign_in">साइन-इन करें</string>
+
+    <string name="manage_appointment_activity_title">अपॉइंटमेंट्स प्रबंधित करें</string>
+    <string name="manage_appointment_ip_number">आईपी संख्या :</string>
+    <string name="manage_appointment_aadhar">आधार संख्या : </string>
+    <string name="manage_appointment_dispensary_address">औषधालय का पता</string>
+    <string name="manage_appointment_date_and_time">तिथि व समय</string>
+    <string name="manage_appointment_cancel">रद्द करें</string>
+    <string name="manage_appointment_re_schedule">पुनर्निर्धारित करें</string>
+
+    <string name="aadhaar_number_update_message">आधार संख्या अद्यतन कर रहे है </string>
+    <string name="aadhaar_number_update_message_1">  के लिए ।</string>
+    <string name="update_adhaar_enter_adhaar_number">आधार संख्या दर्ज करें</string>
+    <string name="update_adhaar_entered_adhaar_number">दर्ज किया गया आधार संख्या</string>
+    <string name="login_activity_adhaar_number">आधार संख्या</string>
+    <string name="otp_sending_message">नोट: उपर्युक्त मोबाइल नंबर में ओटीपी भेजा जाएगा</string>
+    <string name="adhaar_number_agree">यूआईडीएआई डेटाबेस से \"अपने ग्राहक को जानिए (केवाईसी)\" सम्बंधित जानकारी और डेटा इकट्ठा करने के लिए \'आधार संख्या\' देने पर मुझे कोई आपत्ति नहीं है। मैं अपनी अनुमति और सहमति से \"आधार संख्या \" देता / देती हूं।</string>
+    <string name="otp_activity_you_are_about_to_cancel_for">आप के बारे में के लिए रद्द कर रहे हैं</string>
+    <string name="otp_activity_schedule_on">, पर अनुसूची</string>
+    <string name="otp_activity_sec">सेकंड</string>
+    <string name="otp_activity_enter_otp">ओटीपी दर्ज करें</string>
+    <string name="verify_otp">सत्यापित करें</string>
+
+    //strings for parsing otp messages
+    <string name="extract_otp_from_message_1"> is the One Time password (OTP) to Login \'AAA\' Mobile App and is valid for 1 minute only. Please do not share it with anyone - ESI</string>
+    <string name="extract_otp_from_message_2"> is the OTP to Login \'AAA\' Mobile App and is valid for 1  minutes only. Please do not share it with anyone - ESI</string>
+
+    <string name="upcoming_appointment">आगामी अपॉइंटमेंट</string>
+    <string name="history_appointment">विगत बुकिंग</string>
+    <string name="splash_screen_esi_s_digital_india_initiative">ईएसआईसी के ‘डिजिटल भारत’ की पहल</string>
+
+    <string name="choose_patient_update">आधार अपडेट करें</string>
+    <string name="choose_patient_aadhaar" translatable="false">आधार संख्या : </string>
+    <string name="choose_patient_relation_ship">संबंध : </string>
+
+    <string name="custome_dialog_cancel_appointment">अपॉइंटमेंट रद्द करें</string>
+    <string name="custome_dialog_are_you_sure_want_to_cancel_this_appointment" translatable="false">क्या आप इस अपॉइंटमेंट को वास्तव में रद्द करना चाहते हैं? </string>
+    <string name="custome_dialog_yes">हाँ</string>
+    <string name="custome_dialog_no">नहीं</string>
+
+    <string name="custome_navigation_ip_number">आईपी संख्या : </string>
+    <string name="custome_navigation_aadhar_number">आधार संख्या : </string>
+    <string name="custome_navigation_appointments">अपॉइंटमेंट</string>
+    <string name="custome_navigation_dependents">आश्रितजन</string>
+    <string name="custome_navigation_settings">"सेटिंग्स "</string>
+    <string name="custome_navigation_dispensary_address">\"औषधालय पता \"</string>
+    <string name="log_out">लॉग आउट</string>
+    <string name="custom_navigation_uhid">UHID : </string>
+
+
+    <string name="booking_conformation_booking_conformed" translatable="false">बुकिंग की पुष्टि!</string>
+    <string name="booking_confirmed_dispensary_address" translatable="false">औषधालय का पता</string>
+    <string name="booking_confirmed_date_and_time" translatable="false">तिथि व समय</string>
+    <!--<string name="booking_confirmed_fragment_discription_txt" translatable="false">उत्पादित कृपया संदर्भ  %1$s! सत्यापन और पंजीकरण प्रयोजन के लिए डिस्पेंसरी पर। कृपया अनुसूचित नियुक्ति के समय से पहले 15 मिनट तक पहुँचने। धन्यवाद</string>-->
+    <string name="booking_confirmed_fragment_discription_txt" translatable="false">सत्यापन और पंजीकरण के लिए निर्दिष्ट डिस्पेंसरी में इस %1$s को प्रस्तुत करें। कृपया अपॉइंटमेंट के निर्धारित  समय से 15 मिनट पहले पहुंचें। धन्यवाद।</string>
+    <string name="booking_confirmed_fragment_reference_no_txt">बुकिंग संदर्भ संख्या : </string>
+
+    <string name="choose_patient_aadhar" translatable="false">आधार संख्या : </string>
+
+    <string name="review_booking_dispensary_address">औषधालय का पता</string>
+    <string name="review_booking_date_and_time">तिथि व समय</string>
+    <string name="review_booking_entered_mobile_number">दर्ज  किया गया मोबाइल नंबर</string>
+    <string name="review_booking_mob_no_hint">xxxxxxxxxx</string>
+    <string name="review_booking_further_communication_msg">भविष्य में संचार के लिए डेटाबेस में इस मोबाइल नंबर को रखना चाहता हूं </string>
+    <string name="review_booking_note_msg">नोट: उपर्युक्त मोबाइल नंबर में ओटीपी भेजा जाएगा</string>
+    <string name="entered_adhaar_number_example">ABCD123EFGH56</string>
+
+    <string name="dependency_message">बुकिंग के साथ आगे जाने में असमर्थ, कृपया बाद में पुन: प्रयास करें। </string>
+    <string name="choose_time_slot_message">कृपया तिथि व समय चुनें ।</string>
+    <string name="session_id_check">अमान्य सत्र आईडी या आईपी नंबर । कृपया फिर लॉग इन करें ।</string>
+
+    <string name="no_time_slot_available_message">कोई समय दिन के सत्र के लिए उपलब्ध स्लॉट, कृपया अलग दिन सत्र का चयन करें।</string>
+    <string name="invalid_otp">अमान्य ओटीपी संख्या या पहले से ही सत्यापित (असफल)</string>
+    <string name="failed_at_server">सर्वर स्तर पर विफल</string>
+    <string name="invalid_ip">अमान्य आईपी नंबर</string>
+    <string name="valid_ip_session">वैध सत्र आईडी और आईपी संख्या</string>
+
+    <string name="exit_alert_msg">क्या आप इस एप्लिकेशन को बंद करना चाहते हैं?</string>
+    <string name="log_out_message"> क्या आप लॉगआउट करना चाहते हैं?</string>
+
+    <string name="not_available">उपलब्ध नहीं है</string>
+    <string name="no_upcoming_appointments">कोई आगामी नियुक्ति उपलब्ध नही है</string>
+    <string name="no_history_available">कोई इतिहास उपलब्ध नहीं है</string>
+
+    <string name="booked">पहले से ही बुक है</string>
+    <string name="available">उपलब्ध है   </string>
+    <string name="selected">जिसे आपने चुना है</string>
+    <string name="update_aadhar_number">अद्यतन</string>
+
+    // Toast message strings
+    <string name="update_aadhaar_number_message">कृपया आधार संख्या दर्ज करें</string>
+    <string name="time_slot_not_available_message">चयनित समय स्लॉट बुकिंग के लिए उपलब्ध नहीं है</string>
+    <string name="select_patient">कृपया एक व्यक्ति का चयन करें और आगे बढ़े</string>
+    <string name="add_aadhaar_number_message">कृपया पहले आधार संख्या दर्ज करे</string>
+    <string name="hospital_code_error">औषधालय कोड उपलब्ध नहीं है। कृपया ईएसआई कार्यालय से संपर्क करें</string>
+    <string name="hospital_address_error">औषधालय का नाम / पता उपलब्ध / मैप नहीं है। कृपया अपने नियोक्ता से संपर्क करें:</string>
+    <string name="uhid_not_available_message">रोगी का UHID संख्या नहीं बनाई गई है / उपलब्ध नहीं है। कृपया ईएसआईसी डिस्पेंसरी से संपर्क करें।</string>
+    <string name="mobile_number_message">मोबाइल नंबर 10 अंकों का होना आवश्यक है</string>
+    <string name="enter_mobile_number_message">कृपया मोबाइल नंबर दर्ज करे</string>
+    <string name="something_wrong_message">हमारे सर्वर से एरोर प्राप्त हो रहा है, पुन: प्रयास करें</string>
+    <string name="unable_to_fetch_ipdetails_message">आईपी विवरण प्राप्त करने मे असमर्थ है</string>
+    <string name="session_id_error_message">आपका सत्र समाप्त हो गया है, फिर लॉगिन करें</string>
+    <string name="unable_to_connnect_message">ऐसा लगता है कि आप इंटरनेट से कनेक्टेड नहीं हैं</string>
+    <string name="ip_and_aadhaar_number_message">आईपी नंबर और मोबाइल नंबर खाली नहीं होना चाहिए। कृपया वैध और सही जानकारी दर्ज करें।</string>
+    <string name="ip_number_message">आईपी नंबर 10 अंक का होना आवश्यक है</string>
+    <string name="mobile_number_message1">मोबाइल नंबर 10 अंकों का होना आवश्यक है</string>
+    <string name="please_enter_otp_message">कृपया ओटीपी दर्ज करें</string>
+    <string name="unable_to_verify_message">ओटीपी को सत्यापित करने में असमर्थ है</string>
+    <string name="unable_to_validate_otp">ओटीपी सत्यापित करने में असमर्थ है</string>
+    <string name="resend_otp_message">ओटीपी पुन: भेजने में असमर्थ है</string>
+    <string name="unable_to_reschedule">नियुक्ति को पुनर्निर्धारित करने में असमर्थ है, बाद में फिर से कोशिश करे</string>
+    <string name="unable_to_cancel">नियुक्ति को रद्द करने में असमर्थ है, बाद में फिर से कोशिश करे</string>
+    <string name="unable_to_fetch_appointment_list">नियुक्ति सूची प्राप्त करने में असमर्थ है, बाद में फिर से कोशिश करे</string>
+    <string name="unable_to_fetch_date_message">अनुसूचित तारीखों प्राप्त करने में असमर्थ है, बाद में फिर कोशिश करें।</string>
+    <string name="select_date">तारीख़ चुनें</string>
+    <string name="aadhar_and_mobile_number_message">आधार संख्या और मोबाइल नंबर खाली नहीं हो सकता है</string>
+    <string name="aadhaar_number_message">आधार संख्या रिक्त नहीं हो सकता है</string>
+    <string name="mobile_number_empty_message">मोबाइल नंबर खाली नहीं हो सकता है</string>
+    <string name="aadhaar_number_message_s">आधार संख्या 12 अंक का होना चाहिए.</string>
+    <string name="unable_to_update_aadhaar_number">आधार संख्या अद्यतन करने में असमर्थ है</string>
+    <string name="otp_cannot_be_empty_message">ओटीपी खाली नहीं हो सकता है।</string>
+    <string name="unable_to_send_otp">ओटीपी पुन: भेजने में असमर्थ है</string>
+
+    //spinner string values
+    <string name="morning_session">सुबह के सत्र 00:00 - 12:00 PM</string>
+    <string name="afternoon_session">दोपहर के सत्र 12:00 - 4:00 PM</string>
+    <string name="evening_session">शाम के सत्र 4:00 - 7:00 PM</string>
+    <string name="night_session">रात के सत्र 7:00 - 12:00 AM</string>
+
+
+    //Error response Codes.
+
+    <string name="error_code_1503">वैध सत्र आईडी और आईपी संख्या</string>
+    <string name="error_code_1504">अमान्य सत्र आईडी या आईपी संख्या। कृपया सही प्रविष्टि के साथ फिर से लॉग इन करें।</string>
+    <string name="error_code_1000">मुहैया किया हुआ आईपी संख्या मान्य है, प्रोसीडिंग</string>
+    <string name="error_code_1001">मुहैया किया हुआ आईपी संख्या अमान्य है, वैध आईपी संख्या प्रदान करें</string>
+    <string name="error_code_1002">मुहैया किया हुआ आईपी संख्या, मोबाइल नियुक्तियों के लिए पात्र नहीं है</string>
+    <string name="error_code_1003">मुहैया किया हुआ आईपी संख्या में उपलब्ध नहीं है</string>
+    <string name="error_code_1004">मुहैया किया हुआ मोबाइल नंबर मान्य नहीं है</string>
+
+    <string name="error_code_1100">सत्यापन सफलतापूर्वक हो गया </string>
+    <string name="error_code_1101">सत्यापन विफल हो गया है, गलत या एक्स्पायर्ड ओटीपी नंबर प्रदान कीया गया है</string>
+    <string name="error_code_1102">हमारे सर्वर के से एरर प्राप्त हो रहा है, पुन: प्रयास करें</string>
+
+    <string name="error_code_2400">आपको नया ओटीपी भेज दिया है</string>
+    <string name="error_code_2401">ओटीपी भेजने में विफल हो गया है, कृपया पुनः प्रयास करें</string>
+    <string name="error_code_1200">आपका प्रोफ़ाइल जानकारी प्राप्त कर रहे है</string>
+    <string name="error_code_1201">मुहैया किया हुआ आईपी संख्या अमान्य है, कृपया मान्य आईपी संख्या प्रदान करें</string>
+
+    <string name="error_code_1800">मुहैया किया हुआ आईपी संख्या अनिवार्य है, आईपी विवरण नहीं है, कृपया पुनः प्रयास करें</string>
+    <string name="error_code_1801">आईपी संख्या के साथ आश्रितों है</string>
+    <string name="error_code_1802">मुहैया किया हुआ आईपी संख्या के साथ मान्य आईपी जानकारी है</string>
+    <string name="error_code_1803">आपका सत्र समाप्त हो गया है, फिर लॉगिन करें</string>
+
+
+    <string name="error_code_1600">आपका नियुक्ति सफलतापूर्वक पुनर्निर्धारित हो गया है</string>
+    <string name="error_code_1601">चयनित तिथि आज से आगे है</string>
+    <string name="error_code_1602">नियुक्ति पहले से ही एस तिथि के लिए निर्धारित है</string>
+    <string name="error_code_1603">नियुक्ति संदर्भ संख्या नहीं पाया गया, पुन: प्रयास करें</string>
+    <string name="error_code_1604">नई संदर्भ संख्या उत्पन्न किया गया है।</string>
+    <string name="error_code_1605">हमारे सर्वर से एरोर प्राप्त हो रहा है, पुन: प्रयास करें</string>
+    <string name="error_code_1607">आपकी नियुक्ति के समय में परिवर्तन नहीं किया जा सकता क्योंकि आपकी नियुक्ति मे केवल 1 दिन शेष है ।</string>
+
+    <string name="error_code_1300">आपकी नियुक्ति सफलतापूर्वक हो गया है</string>
+    <string name="error_code_1301">कृपया तिथि का चयन बाद का या आज का करे</string>
+    <string name="error_code_1302">आपका अस्पताल आईपी संख्या विन्यस्त नहीं किया गया है</string>
+    <string name="error_code_1303">चुना गया अपॉइंटमेंट स्लॉट उपलब्ध नहीं है, अलग स्लॉट चुने या पुन: प्रयास करें</string>
+    <string name="error_code_1304">मुहैया किया हुआ संदर्भ नंबर मान्य नहीं है</string>
+    <string name="error_code_1305">आपका सत्र समाप्त हो गया है, फिर लॉगिन करें</string>
+
+    <string name="error_code_2000">अस्पताल से संबंधित आपका प्रोफ़ाइल जानकारी प्राप्त कर रहे है</string>
+    <string name="error_code_2001">आपका अस्पताल कोड समय निर्धारण के लिए कॉन्फ़िगर नहीं किया गया, बाद में पुन: प्रयास करें</string>
+    <string name="error_code_2002">आपका अस्पताल कोड समय स्लॉट के लिए कॉन्फ़िगर नहीं किया गया, बाद में पुन: प्रयास करें</string>
+    <string name="error_code_2003">अमान्य अस्पताल कोड</string>
+    <string name="error_code_2004">आपका सत्र समाप्त हो गया है, फिर लॉगिन करें</string>
+    <string name="error_code_2103">चयनित तिथि को छुट्टी है, कृपया अलग तिथि का चयन करें और फिर से कोशिश करे</string>
+
+    <string name="error_code_1700">आपकी नियुक्ति रद्द कर दिया गया है</string>
+    <string name="error_code_1701">नियुक्ति पहले ही रद्द कर दिया है</string>
+    <string name="error_code_1702">मुहैया किया हुआ आईपी संख्या मान्य नहीं है, नियुक्ति रद्द नहीं कर सकते</string>
+    <string name="error_code_1703">हमारे सर्वर से एरर प्राप्त हो रहा है, पुन: प्रयास करें</string>
+    <string name="error_code_1704">आपकी नियुक्ति रद्द नहीं किया जा सकता है, क्योंकि आपकी नियुक्ति मे केवल 1 घंटा बचा है।</string>
+
+    <string name="error_code_1900">आपका आधार संख्या सफलतापूर्वक संग्रहीत हो गया है</string>
+    <string name="error_code_1901">आपका आधार संख्या सफलतापूर्वक अद्यतन हो गया है</string>
+    <string name="error_code_1902">अवैध मोबाइल या आधार संख्या मुहैया किया गया है, ठीक करें और पुन: प्रयास करें</string>
+    <string name="error_code_1903">हमारे सर्वर से एरर प्राप्त हो रहा है, पुन: प्रयास करें</string>
+    <string name="error_code_1904">अमान्य या निष्क्रिय आईपी संख्या</string>
+    <string name="error_code_1950">ओटीपी सफलतापूर्वक सत्यापित हो गया है</string>
+    <string name="error_code_1951">हमारे सर्वर से एरर प्राप्त हो रहा है, पुन: प्रयास करें</string>
+    <string name="error_code_1952">मोहिया किया हुआ ओटीपी मान्य नहीं है</string>
+
+    <string name="error_code_2300">आधार संख्या का ओटीपी जनित हो गया है और संदेश भेज दिया गया है</string>
+    <!--<string name="error_code_2301">Invalid IPNumber or Mobile Number or Aadhaar Number</string>-->
+    <string name="error_code_2301">कृपया सही आधार संख्या डाले</string>
+    <string name="error_code_2302">आपको नया ओटीपी भेजने में असमर्थ है, कृपया पुनः प्रयास करें</string>
+    <string name="error_code_2303">हमारे सर्वर से एरर प्राप्त हो रहा है, पुन: प्रयास करें</string>
+    <string name="error_code_2304">मोहिया किया हुआ आधार संख्या मान्य नहीं है</string>
+
+    <string name="error_code_2500">आपको नई ओटीपी भेज रहे है</string>
+    <string name="error_code_2501">आपको नया ओटीपी भेजने में असमर्थ है, कृपया पुनः प्रयास करें</string>
+</resources>

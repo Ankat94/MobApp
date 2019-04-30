@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FD7F36</color>
+    <color name="colorPrimaryDark">#e38d32</color>
+    <color name="colorAccent">#d26767</color>
+    <color name="colorAccentLight">#d77575</color>
+    <color name="booked_color">#FF0000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="screen_bg">#F2F2F2</color>
+
+    <color name="color_disabled_button">#FDEADA</color>
+
+    <color name="text_color_gray">#BFBFBF</color>
+
+    <color name="divider_bg">#7e7e7e</color>
+
+    <color name="appointment_color">#B7DEE8</color>
+    <color name="selected_color">#052fd7</color>
+    <color name="panda">#D7E4BD</color>
+    <color name="green">#008000</color>
+    <color name="available">#39ba39</color>
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="esiapp.esi.ui.fragment.BookingConfirmedFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/screen_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context="esiapp.esi.ui.activity.MainActivity">
+
+        <!--<include layout="@layout/toolbar_with_logo"></include>-->
+
+        <LinearLayout
+            android:id="@+id/activity_book_appointment_include"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/activity_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+                <TextView
+                    android:id="@+id/activity_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+            </android.support.v7.widget.Toolbar>
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_margin="16dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_logo_1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/main_activity_choose_txt"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/activity_main_ip_no"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:elevation="2dp"
+            android:text="@string/main_activity_ip_number"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/activity_main_ip_no_u"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@color/color_disabled_button"
+            android:elevation="2dp"
+            android:text="@string/main_activity_ip_number_u"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_gray"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/activity_main_esic_emp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@color/color_disabled_button"
+            android:elevation="2dp"
+            android:text="@string/main_activity_esic_employee"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_gray"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/activity_main_ip_esic_pen"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@color/color_disabled_button"
+            android:elevation="2dp"
+            android:text="@string/main_activity_esic_pensioner"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_gray"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/activity_main_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:elevation="2dp"
+                android:text="@string/main_activity_hindi"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/activity_main_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@color/colorPrimary"
+                android:elevation="2dp"
+                android:text="@string/main_activity_english"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp">
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/url_toogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
